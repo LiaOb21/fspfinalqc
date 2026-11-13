@@ -1,2 +1,2 @@
-sample,fastq_1,fastq_2,fasta,busco_full_table,btk_files
+sample,fastq_1,fastq_2,fasta,busco_full_table,btk_results_directory
 sample_2,./assets/dataset/fastqs/sample_2_R1.fastp.fastq.gz,./assets/dataset/fastqs/sample_2_R2.fastp.fastq.gz,./assets/dataset/sample_2_corrected.fasta,./assets/dataset/full_table.tsv,./assets/dataset/btk_results
