@@ -117,7 +117,7 @@ workflow PIPELINE_INITIALISATION {
         }
         .map { samplesheet -> validateInputSamplesheet(samplesheet) }
         .multiMap { meta, fastqs, fasta, busco_full_table, btk ->
-            // reads only, needed for bwa-mem2 when using decontaminated assembly 
+            // reads only, needed for bwa-mem2 when using decontaminated assembly
             reads: [ meta, fastqs ]
             // fasta only, needed for seqkit subseq
             fasta: [ meta, fasta ]
