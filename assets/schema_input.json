@@ -35,6 +35,31 @@
                 "pattern": "^([\\S\\s]*\\/)?[^\\s\\/]+\\.f(ast)?a(\\.gz)?$",
                 "errorMessage": "Fasta file cannot contain spaces and must have extension '.fa.gz' or '.fasta.gz' or '.fa' or '.fasta'"
             },
+            "genus": {
+                "type": "string",
+                "errorMessage": "Taxonomic genus name",
+                "meta": ["genus"]
+            },
+            "family": {
+                "type": "string",
+                "errorMessage": "Taxonomic family name",
+                "meta": ["family"]
+            },
+            "order": {
+                "type": "string",
+                "errorMessage": "Taxonomic order name",
+                "meta": ["order"]
+            },
+            "class": {
+                "type": "string",
+                "errorMessage": "Taxonomic class name",
+                "meta": ["class"]
+            },
+            "phylum": {
+                "type": "string",
+                "errorMessage": "Taxonomic phylum name",
+                "meta": ["phylum"]
+            },
             "busco_full_table": {
                 "type": "string",
                 "format": "file-path",
